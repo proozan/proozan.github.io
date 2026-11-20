@@ -1,0 +1,92 @@
+{
+  "profile": {
+    "name": "Ozan Kılıç",
+    "bio": {
+      "tr": "Kişisel arşiv. Yazdığım algoritmaları, teknik notları ve fotoğraf karelerini biriktirdiğim yer.",
+      "en": "Personal archive. A place where I collect the algorithms I write, technical notes, and photographs."
+    },
+    "links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/username",
+        "icon": "github"
+      },
+      {
+        "label": "LinkedIn",
+        "url": "https://linkedin.com/in/username",
+        "icon": "linkedin"
+      }
+    ]
+  },
+  "about": {
+    "tr": "content/about.tr.md",
+    "en": "content/about.en.md"
+  },
+  "items": [
+    {
+      "slug": "a-star-shortest-path",
+      "type": "project",
+      "date": "2026-11-18",
+      "tag": "C++ / WASM",
+      "title": {
+        "tr": "A* En Kısa Yol Algoritması",
+        "en": "A* Shortest Path Algorithm"
+      },
+      "summary": {
+        "tr": "Harita üzerindeki engelleri fareyle çizip algoritmanın gerçek zamanlı olarak en kısa yolu nasıl bulduğunu adım adım inceleyebileceğin interaktif simülasyon.",
+        "en": "An interactive simulation where you draw obstacles on a grid and watch the algorithm compute the shortest path step by step in real time."
+      },
+      "content": {
+        "tr": "content/projects/a-star-shortest-path.tr.md",
+        "en": "content/projects/a-star-shortest-path.en.md"
+      },
+      "links": {
+        "github": "https://github.com/username/a-star-shortest-path",
+        "demo": "https://username.github.io/a-star-shortest-path"
+      }
+    },
+    {
+      "slug": "zero-cost-tools-with-webassembly",
+      "type": "post",
+      "date": "2026-11-12",
+      "tag": {
+        "tr": "Yazı",
+        "en": "Note"
+      },
+      "title": {
+        "tr": "WebAssembly ile Sıfır Maliyetli Araçlar",
+        "en": "Zero-Cost Tools with WebAssembly"
+      },
+      "summary": {
+        "tr": "Neden karmaşık arka plan sunucuları yerine yazdığım C++ ve Python algoritmalarını doğrudan ziyaretçinin tarayıcısında çalıştırmayı tercih ediyorum?",
+        "en": "Why I prefer running my C++ and Python algorithms directly in the visitor's browser instead of maintaining complex backend servers."
+      },
+      "content": {
+        "tr": "content/posts/zero-cost-tools-with-webassembly.tr.md",
+        "en": "content/posts/zero-cost-tools-with-webassembly.en.md"
+      }
+    },
+    {
+      "slug": "image-denoiser",
+      "type": "project",
+      "date": "2026-11-05",
+      "tag": "Python",
+      "title": {
+        "tr": "Görüntü Gürültü Azaltıcı (Denoise)",
+        "en": "Image Noise Reducer (Denoise)"
+      },
+      "summary": {
+        "tr": "Fotoğraflardaki düşük ışık kumlanmasını tarayıcı içinde çalışan Python koduyla temizleyen deneme aracı.",
+        "en": "An experimental tool that reduces low-light grain in photographs using Python running directly inside the browser."
+      },
+      "content": {
+        "tr": "content/projects/image-denoiser.tr.md",
+        "en": "content/projects/image-denoiser.en.md"
+      },
+      "links": {
+        "github": "https://github.com/username/image-denoiser"
+      }
+    }
+  ]
+}
+
